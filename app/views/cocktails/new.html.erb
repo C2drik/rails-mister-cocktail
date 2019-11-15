@@ -1,4 +1,5 @@
-<%= simple_form_for @cocktail do |f| %>
-  <%= f.input :name %>
-  <%= f.button :submit %>
-<% end %>
+<h1>New Article</h1>
+
+<%= render 'form', article: @article %>
+
+<%= link_to 'Back', articles_path %>
