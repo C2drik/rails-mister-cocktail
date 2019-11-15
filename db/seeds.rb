@@ -8,3 +8,16 @@
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+
+Cocktail.create(name: "Mojito")
+Cocktail.create(name: "Rhum Coca")
+Cocktail.create(name: "Pastis")
+Cocktail.create(name: "Panaché")
+
+Dose.create(name: "6 cl")
+Dose.create(name: "10 cl")
+Dose.create(name: "5 cl")
+Dose.create(name: "15 cl")
+Dose.create(name: "8 cl")
+Dose.create(name: "4 cl")
+
