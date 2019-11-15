@@ -12,6 +12,8 @@
   </thead>
 
   <tbody>
+    <%= cl_image_tag("y3nv21ykc9mno4dwizeg",
+      width: 400, height: 300, crop: :fill) %>
     <% @articles.each do |article| %>
       <tr>
         <td><%= article.title %></td>
@@ -21,6 +23,8 @@
         <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
+    <%= cl_image_tag("ae7dg2nrpfaq08utdnbc",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
   </tbody>
 </table>
 
